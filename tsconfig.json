@@ -23,9 +23,9 @@
   },
     "paths": {
       "@/*": ["./src/*"],
-	  "@components/*": ["src/components/*"],
-	  "@library/*": ["src/library/*"],
-	  "@hooks/*": ["src/hooks/*"]
+	  "@components/*": [".src/components/*"],
+	  "@library/*": [".src/library/*"],
+	  "@hooks/*": [".src/hooks/*"]
     },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

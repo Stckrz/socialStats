@@ -14,7 +14,9 @@ export default {
 				"facebookBlueLight": "#1773EA",
 				"facebookGrayDark": "#18191A",
 				"facebookGrayLight": "#242526",
-				"facebookGrayBorder": "#393A3B"
+				"facebookGrayBorder": "#393A3B",
+				"facebookGrayText": "#A3A6AA",
+				"facebookLightIcon": "#E4E6EB"
 			}
 		},
   },

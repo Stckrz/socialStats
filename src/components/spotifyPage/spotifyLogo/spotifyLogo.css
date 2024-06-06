@@ -1,0 +1,40 @@
+.spotify-logo-background {
+	position: relative;
+}
+
+.spotify-logo-background:after {
+	position: absolute;
+	border-radius: 50%;
+	z-index: 0;
+	content: '';
+	background: radial-gradient(closest-side at 50%, #1dd05d, #1000 25%, black 75%, #000 100%),
+		radial-gradient(circle at -90%, #1dd05d, black 90%, #000 75%, #1dd05d 100%),
+		radial-gradient(circle at 80%, #1dd05d, black 90%, #000 75%, #000 100%);
+	transform: rotate(-90deg);
+	height: 155%;
+	width: 155%;
+	animation: swirly 2s infinite linear;
+}
+
+.spotify-logo-background:hover:after {
+	background: transparent;
+}
+
+.spotify-logo-big {
+	z-index: 1;
+	transition: box-shadow 0.5s linear;
+}
+
+.spotify-logo-big:hover {
+	box-shadow: 0px 0px 16px 8px #1DD05D;
+}
+
+@keyframes swirly {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}

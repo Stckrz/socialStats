@@ -1,4 +1,4 @@
-import tikTokLogo from '../../library/logos/tiktok-logo-4500.svg'
+import tikTokLogo from 'library/logos/tiktok-logo-4500.svg'
 const TikTokPage = () => {
 	return (
 		<>

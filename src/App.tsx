@@ -1,7 +1,7 @@
 // import './App.css'
-import FacebookPage from "./components/facebookPage/facebookPage"
-import SpotifyPage from "./components/spotifyPage/spotifyPage"
-import TikTokPage from "./components/tiktokPage/tiktokPage"
+import FacebookPage from "src/components/facebookPage/facebookPage"
+import SpotifyPage from "src/components/spotifyPage/spotifyPage"
+import TikTokPage from "src/components/tiktokPage/tiktokPage"
 
 function App() {
 
