@@ -28,9 +28,7 @@ const FacebookNavbar: React.FC = () => {
 					<FaBell className={"text-facebookLightIcon"} size={"1.2em"} />
 				</div>
 				<div className={"aspect-square bg-facebookGrayBorder h-full rounded-full"}>
-					{/* <div style={{ height: "1.5em" }} className={"flex gap-2 m-1 aspect-square"}> */}
 						<img style={{height: "2.2em"}} className={"rounded-full object-fill h-full w-full"} src={profile} />
-					{/* </div> */}
 				</div>
 			</div>
 		</div>

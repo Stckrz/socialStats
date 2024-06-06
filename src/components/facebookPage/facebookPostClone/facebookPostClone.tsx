@@ -7,6 +7,7 @@ import CommentBox from "src/components/facebookPage/commentBox/commentBox"
 const FacebookPost: React.FC = () => {
 	const [shown, setShown] = useState(true);
 	const [showCommentBox, setShowCommentBox] = useState(false);
+
 	return (
 		<>
 			{shown &&
@@ -15,10 +16,16 @@ const FacebookPost: React.FC = () => {
 						<UserBadge />
 						<div className={"flex text-facebookGrayText gap-2"}>
 							<MdMoreHoriz size={"1.5em"} />
-							<IoClose className={"cursor-pointer"} onClick={() => { setShown(false) }} size={"1.5em"} />
+							<IoClose
+								className={"cursor-pointer"}
+								onClick={() => { setShown(false) }}
+								size={"1.5em"}
+							/>
 						</div>
 					</div>
-					<div className={"text-facebookGrayText"}>This is a post</div>
+					<div className={"text-facebookGrayText"}>
+						This is a post
+					</div>
 					<div className={"flex-grow bg-white"}> ass</div>
 					<div className={"flex justify-between m-2 p-2 border-t-facebookGrayBorder border-b-facebookGrayBorder border-t border-b text-sm text-facebookGrayText"}>
 						<div>Like</div>
