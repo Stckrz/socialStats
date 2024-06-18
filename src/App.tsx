@@ -11,11 +11,11 @@ function App() {
 				<div className={"snap-center h-screen w-full bg-blue-900"}>
 					<SpotifyPage />
 				</div>
-				<div className={"snap-center snap-always h-screen w-full"}>
-					<FacebookPage />
-				</div>
 				<div className={"snap-center h-screen w-full bg-red-900"}>
 					<TikTokPage />
+				</div>
+				<div className={"snap-center snap-always h-screen w-full"}>
+					<FacebookPage />
 				</div>
 			</div>
 		</>

@@ -1,3 +1,4 @@
+import Comment from "../comment/comment"
 
 interface CommentBoxProps{
 	shown: boolean,
@@ -7,7 +8,7 @@ const CommentBox: React.FC<CommentBoxProps> = (shown) => {
 		<>
 			{shown &&
 			<div className={"p-2 rounded-md"}>
-				ass
+					<Comment />
 			</div>
 			}
 		</>

@@ -1,0 +1,44 @@
+{
+	"adds": {
+		"interacted": 31,
+		"advertisersUsingYourInformation": 5331,
+		"offSiteInteraction": {
+			"numberOfSites": 150,
+			"siteFrequencyData": [
+				{ "site": "Quora: the knowledge platform", 
+					"events": 3533 
+				},
+				{ "site": "Discord: Talk, Chat & Hang Out", 
+					  "events": 827 
+				},
+				{ "site": "MongoDB", 
+					  "events": 33 
+				},
+				{ "site": "Crumbl Cookies", 
+					  "events": 20 
+				}
+			]
+		}
+	},
+	"interaction": {
+		"postInteraction": 817,
+		"reactionTypes": {
+			"LIKE": 795,
+			"LOVE": 14,
+			"SORRY": 4,
+			"SUPPORT": 1,
+			"ANGER": 1
+		},
+		"comments": 44
+	},
+	"pages": {
+		"pagesLiked": 12,
+		"pagesFollowed":14
+	},
+	"connections": {
+		"peopleYouMayKnow": 54,
+		"friends": 21,
+		"followed": 15
+
+	}
+}

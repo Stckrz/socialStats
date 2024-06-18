@@ -6,6 +6,7 @@ import { FaFacebookMessenger } from 'react-icons/fa'
 import profile from 'src/library/images/profileImage.jpeg';
 import { useViewport } from 'src/hooks/useViewport'
 import { useEffect } from 'react'
+import UserBadge, { BadgeType } from '../userBadge/userBadge'
 
 const FacebookNavbar: React.FC = () => {
 	const width = useViewport().width;
@@ -27,8 +28,10 @@ const FacebookNavbar: React.FC = () => {
 				<div className={"aspect-square bg-facebookGrayBorder h-full rounded-full p-2"}>
 					<FaBell className={"text-facebookLightIcon"} size={"1.2em"} />
 				</div>
-				<div className={"aspect-square bg-facebookGrayBorder h-full rounded-full"}>
-						<img style={{height: "2.2em"}} className={"rounded-full object-fill h-full w-full"} src={profile} />
+				{/* <div className={"aspect-square bg-facebookGrayBorder h-full rounded-full"}> */}
+				<div className={"bg-facebookGrayBorder rounded-full flex items-center justify-center h-full aspect-square"}>
+						{/* <img style={{height: "2.2em"}} className={"rounded-full object-fill h-full w-full"} src={profile} /> */}
+					<UserBadge badgeType={BadgeType.ImageBadge}/>
 				</div>
 			</div>
 		</div>

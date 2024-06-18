@@ -8,6 +8,9 @@ export default {
     extend: {
 			colors: {
 				"spotifyGreen": "#1DD05D",
+				"spotifyGray": "#121212",
+				"spotifyLightGray": "#282828",
+				"spotifyText": "#A7A7A7",
 				"tiktokBlue": "#25EdE6",
 				"tiktokRed": "#F62A51",
 				"facebookBlueDark": "#3C5A99",
